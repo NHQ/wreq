@@ -45,10 +45,11 @@ You can get `wreq.js` from this repository in the root directory.
 ```
 
 Now load `index.html`. That's it, no compile step and you get node-style
-`require()` so-called synchronous requires.
+so-called "synchronous" `require()`s.
 
-Now let's all stop making those ridiculous arguments that node-style require()s
-necessarily entail synchronous XHR or a server-side build step.
+Now let's all stop making those ridiculous arguments that node-style
+`require()`s necessarily entail synchronous XHR or a server-side build step
+[or other silliness](http://wiki.ecmascript.org/doku.php?id=harmony:modules).
 
 install
 =======
