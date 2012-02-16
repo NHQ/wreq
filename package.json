@@ -1,0 +1,13 @@
+{
+    "name" : "wreq",
+    "version" : "0.0.0",
+    "scripts" : {
+        "install" : "bin/build.sh"
+    },
+    "devDependencies" : {
+        "browserify" : "1.9.x",
+        "detective" : "0.0.x",
+        "http-browserify" : "0.0.x",
+        "uglify-js" : "1.2.x"
+    }
+}
